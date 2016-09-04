@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		871DA6631D7BC5BC00396229 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 871DA6621D7BC5BC00396229 /* HomeViewController.swift */; };
 		A4013A891D7AD94C008DB483 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4013A881D7AD94C008DB483 /* AppDelegate.swift */; };
 		A4013A8B1D7AD94C008DB483 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4013A8A1D7AD94C008DB483 /* ViewController.swift */; };
 		A4013A8E1D7AD94C008DB483 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4013A8C1D7AD94C008DB483 /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		871DA6621D7BC5BC00396229 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		A4013A851D7AD94C008DB483 /* DreamHackApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DreamHackApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4013A881D7AD94C008DB483 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A4013A8A1D7AD94C008DB483 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -100,6 +102,7 @@
 				A4013A881D7AD94C008DB483 /* AppDelegate.swift */,
 				A4013A8A1D7AD94C008DB483 /* ViewController.swift */,
 				A4013A8C1D7AD94C008DB483 /* Main.storyboard */,
+				871DA6621D7BC5BC00396229 /* HomeViewController.swift */,
 				A4013A8F1D7AD94C008DB483 /* Assets.xcassets */,
 				A4013A911D7AD94C008DB483 /* LaunchScreen.storyboard */,
 				A4013A941D7AD94C008DB483 /* Info.plist */,
@@ -258,6 +261,7 @@
 			files = (
 				A4013A8B1D7AD94C008DB483 /* ViewController.swift in Sources */,
 				A4013A891D7AD94C008DB483 /* AppDelegate.swift in Sources */,
+				871DA6631D7BC5BC00396229 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -484,6 +488,7 @@
 				A4013AAF1D7AD94C008DB483 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A4013AB01D7AD94C008DB483 /* Build configuration list for PBXNativeTarget "DreamHackAppTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +497,7 @@
 				A4013AB21D7AD94C008DB483 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A4013AB31D7AD94C008DB483 /* Build configuration list for PBXNativeTarget "DreamHackAppUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +506,7 @@
 				A4013AB51D7AD94C008DB483 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

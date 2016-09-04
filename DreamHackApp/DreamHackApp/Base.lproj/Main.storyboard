@@ -62,10 +62,10 @@
             </objects>
             <point key="canvasLocation" x="1729.5" y="387.5"/>
         </scene>
-        <!--View Controller-->
+        <!--Home View Controller-->
         <scene sceneID="fHL-dl-Yyr">
             <objects>
-                <viewController id="sLS-Iz-DjO" sceneMemberID="viewController">
+                <viewController id="sLS-Iz-DjO" customClass="HomeViewController" customModule="DreamHackApp" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="G7m-Og-CBB"/>
                         <viewControllerLayoutGuide type="bottom" id="kQl-47-XZh"/>
@@ -73,16 +73,13 @@
                     <view key="view" contentMode="scaleToFill" id="X86-eN-NIg">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yZ1-wc-sQ7">
-                                <rect key="frame" x="281" y="98" width="46" height="30"/>
-                                <state key="normal" title="Button"/>
-                            </button>
-                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="IuD-UA-Hs5"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="view" destination="X86-eN-NIg" id="MZA-MY-gSf"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yBy-P2-Sfe" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
