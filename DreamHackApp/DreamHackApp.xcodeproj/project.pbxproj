@@ -7,13 +7,40 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4E53BA937635750883978598 /* Pods_DreamHackAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46FB5617846D9A602C76E360 /* Pods_DreamHackAppTests.framework */; };
 		A4013A891D7AD94C008DB483 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4013A881D7AD94C008DB483 /* AppDelegate.swift */; };
-		A4013A8B1D7AD94C008DB483 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4013A8A1D7AD94C008DB483 /* ViewController.swift */; };
 		A4013A8E1D7AD94C008DB483 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4013A8C1D7AD94C008DB483 /* Main.storyboard */; };
-		A4013A901D7AD94C008DB483 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4013A8F1D7AD94C008DB483 /* Assets.xcassets */; };
 		A4013A931D7AD94C008DB483 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4013A911D7AD94C008DB483 /* LaunchScreen.storyboard */; };
 		A4013A9E1D7AD94C008DB483 /* DreamHackAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4013A9D1D7AD94C008DB483 /* DreamHackAppTests.swift */; };
 		A4013AA91D7AD94C008DB483 /* DreamHackAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4013AA81D7AD94C008DB483 /* DreamHackAppUITests.swift */; };
+		A40A58011D7C24FB0071C840 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A40A58001D7C24FB0071C840 /* Assets.xcassets */; };
+		A40A58051D7C26560071C840 /* UserTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A40A58031D7C26560071C840 /* UserTableViewCell.xib */; };
+		A44E2E581D7C0B3500953C35 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44E2E571D7C0B3500953C35 /* User.swift */; };
+		A44E2E5A1D7C0B4D00953C35 /* Relation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44E2E591D7C0B4D00953C35 /* Relation.swift */; };
+		A44E2E5C1D7C0B5A00953C35 /* Memory.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44E2E5B1D7C0B5A00953C35 /* Memory.swift */; };
+		A44E2E5E1D7C0B7100953C35 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44E2E5D1D7C0B7100953C35 /* UserModel.swift */; };
+		A44E2E601D7C0B8900953C35 /* Parent.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44E2E5F1D7C0B8900953C35 /* Parent.swift */; };
+		A44E2E621D7C0B9D00953C35 /* MemoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44E2E611D7C0B9D00953C35 /* MemoryModel.swift */; };
+		A44E2E641D7C0BBD00953C35 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44E2E631D7C0BBD00953C35 /* LoginViewController.swift */; };
+		A44E2E661D7C0BE500953C35 /* PasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44E2E651D7C0BE500953C35 /* PasswordViewController.swift */; };
+		A44E2E681D7C0BF300953C35 /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44E2E671D7C0BF300953C35 /* CreateAccountViewController.swift */; };
+		A44E2E6A1D7C0C0D00953C35 /* TimelineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44E2E691D7C0C0D00953C35 /* TimelineViewController.swift */; };
+		A44E2E6C1D7C0C1C00953C35 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44E2E6B1D7C0C1C00953C35 /* DetailViewController.swift */; };
+		A44E2E6E1D7C0C8400953C35 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44E2E6D1D7C0C8400953C35 /* ProfileViewController.swift */; };
+		A44E2E701D7C111300953C35 /* FriendListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44E2E6F1D7C111300953C35 /* FriendListViewController.swift */; };
+		A44E2E721D7C114F00953C35 /* AddRelationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44E2E711D7C114F00953C35 /* AddRelationViewController.swift */; };
+		A44E2E741D7C157800953C35 /* KRAdditional.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44E2E731D7C157800953C35 /* KRAdditional.swift */; };
+		A46E5FBB1D82A6F700800526 /* FriendTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A46E5FBA1D82A6F700800526 /* FriendTableViewCell.swift */; };
+		A46E5FBF1D82AB6500800526 /* UserTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A46E5FBE1D82AB6500800526 /* UserTableViewCell.swift */; };
+		A46E5FC11D82B33F00800526 /* TimelineTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A46E5FC01D82B33F00800526 /* TimelineTableViewCell.swift */; };
+		A475E4BF1D81969A002E805B /* FindUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A475E4BE1D81969A002E805B /* FindUserViewController.swift */; };
+		A475E4C11D8197FD002E805B /* AddMemoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A475E4C01D8197FD002E805B /* AddMemoryViewController.swift */; };
+		A4C631A11D82E63C0023248E /* RelationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C631A01D82E63C0023248E /* RelationModel.swift */; };
+		A4C631A31D82ED430023248E /* ParentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C631A21D82ED430023248E /* ParentModel.swift */; };
+		A4C631A51D82F6740023248E /* DrawlineUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C631A41D82F6740023248E /* DrawlineUIView.swift */; };
+		A4C631A71D82F6920023248E /* Points.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C631A61D82F6920023248E /* Points.swift */; };
+		AAACFD3B336B74EE1182A3EB /* Pods_DreamHackApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B17DF62D9FA70413625C5298 /* Pods_DreamHackApp.framework */; };
+		EA90EEA83139CCE37C6A3173 /* Pods_DreamHackAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE1C905075EDE6202C531088 /* Pods_DreamHackAppUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,11 +61,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		46FB5617846D9A602C76E360 /* Pods_DreamHackAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DreamHackAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C7FD6EAD311237FD20DAC7F /* Pods-DreamHackAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DreamHackAppUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DreamHackAppUITests/Pods-DreamHackAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		6BFE8A588578A376BE1875ED /* Pods-DreamHackApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DreamHackApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-DreamHackApp/Pods-DreamHackApp.release.xcconfig"; sourceTree = "<group>"; };
 		A4013A851D7AD94C008DB483 /* DreamHackApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DreamHackApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4013A881D7AD94C008DB483 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A4013A8A1D7AD94C008DB483 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A4013A8D1D7AD94C008DB483 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		A4013A8F1D7AD94C008DB483 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A4013A921D7AD94C008DB483 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A4013A941D7AD94C008DB483 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A4013A991D7AD94C008DB483 /* DreamHackAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DreamHackAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -47,6 +75,38 @@
 		A4013AA41D7AD94C008DB483 /* DreamHackAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DreamHackAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4013AA81D7AD94C008DB483 /* DreamHackAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DreamHackAppUITests.swift; sourceTree = "<group>"; };
 		A4013AAA1D7AD94C008DB483 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A40A58001D7C24FB0071C840 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A40A58031D7C26560071C840 /* UserTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = UserTableViewCell.xib; path = View/UserTableViewCell.xib; sourceTree = "<group>"; };
+		A44E2E571D7C0B3500953C35 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = User.swift; path = Model/Entity/User.swift; sourceTree = "<group>"; };
+		A44E2E591D7C0B4D00953C35 /* Relation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Relation.swift; sourceTree = "<group>"; };
+		A44E2E5B1D7C0B5A00953C35 /* Memory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Memory.swift; sourceTree = "<group>"; };
+		A44E2E5D1D7C0B7100953C35 /* UserModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UserModel.swift; path = Model/UserModel.swift; sourceTree = "<group>"; };
+		A44E2E5F1D7C0B8900953C35 /* Parent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Parent.swift; sourceTree = "<group>"; };
+		A44E2E611D7C0B9D00953C35 /* MemoryModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MemoryModel.swift; sourceTree = "<group>"; };
+		A44E2E631D7C0BBD00953C35 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginViewController.swift; path = Controller/LoginViewController.swift; sourceTree = "<group>"; };
+		A44E2E651D7C0BE500953C35 /* PasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PasswordViewController.swift; sourceTree = "<group>"; };
+		A44E2E671D7C0BF300953C35 /* CreateAccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
+		A44E2E691D7C0C0D00953C35 /* TimelineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimelineViewController.swift; sourceTree = "<group>"; };
+		A44E2E6B1D7C0C1C00953C35 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		A44E2E6D1D7C0C8400953C35 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		A44E2E6F1D7C111300953C35 /* FriendListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendListViewController.swift; sourceTree = "<group>"; };
+		A44E2E711D7C114F00953C35 /* AddRelationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddRelationViewController.swift; sourceTree = "<group>"; };
+		A44E2E731D7C157800953C35 /* KRAdditional.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KRAdditional.swift; sourceTree = "<group>"; };
+		A46E5FBA1D82A6F700800526 /* FriendTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FriendTableViewCell.swift; path = View/FriendTableViewCell.swift; sourceTree = "<group>"; };
+		A46E5FBE1D82AB6500800526 /* UserTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UserTableViewCell.swift; path = View/UserTableViewCell.swift; sourceTree = "<group>"; };
+		A46E5FC01D82B33F00800526 /* TimelineTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TimelineTableViewCell.swift; path = View/TimelineTableViewCell.swift; sourceTree = "<group>"; };
+		A475E4BE1D81969A002E805B /* FindUserViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FindUserViewController.swift; path = Controller/FindUserViewController.swift; sourceTree = "<group>"; };
+		A475E4C01D8197FD002E805B /* AddMemoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddMemoryViewController.swift; sourceTree = "<group>"; };
+		A4C631A01D82E63C0023248E /* RelationModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RelationModel.swift; path = Model/RelationModel.swift; sourceTree = "<group>"; };
+		A4C631A21D82ED430023248E /* ParentModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ParentModel.swift; path = Model/ParentModel.swift; sourceTree = "<group>"; };
+		A4C631A41D82F6740023248E /* DrawlineUIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawlineUIView.swift; sourceTree = "<group>"; };
+		A4C631A61D82F6920023248E /* Points.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Points.swift; sourceTree = "<group>"; };
+		A5B305FAD6050E2BFF6C0FD3 /* Pods-DreamHackAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DreamHackAppTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DreamHackAppTests/Pods-DreamHackAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A66C71BD33D6010309A6B61B /* Pods-DreamHackApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DreamHackApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DreamHackApp/Pods-DreamHackApp.debug.xcconfig"; sourceTree = "<group>"; };
+		B17DF62D9FA70413625C5298 /* Pods_DreamHackApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DreamHackApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4B9F6FAE2F004105D95FC8C /* Pods-DreamHackAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DreamHackAppUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DreamHackAppUITests/Pods-DreamHackAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		DE1C905075EDE6202C531088 /* Pods_DreamHackAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DreamHackAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E27519392133C7177A62B11F /* Pods-DreamHackAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DreamHackAppTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DreamHackAppTests/Pods-DreamHackAppTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +114,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AAACFD3B336B74EE1182A3EB /* Pods_DreamHackApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +122,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E53BA937635750883978598 /* Pods_DreamHackAppTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +130,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA90EEA83139CCE37C6A3173 /* Pods_DreamHackAppUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9D28F8EDE3AB54922296DDCC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B17DF62D9FA70413625C5298 /* Pods_DreamHackApp.framework */,
+				46FB5617846D9A602C76E360 /* Pods_DreamHackAppTests.framework */,
+				DE1C905075EDE6202C531088 /* Pods_DreamHackAppUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		A4013A7C1D7AD94C008DB483 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +154,8 @@
 				A4013A9C1D7AD94C008DB483 /* DreamHackAppTests */,
 				A4013AA71D7AD94C008DB483 /* DreamHackAppUITests */,
 				A4013A861D7AD94C008DB483 /* Products */,
+				FDB685D53DADDC992832492A /* Pods */,
+				9D28F8EDE3AB54922296DDCC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +172,15 @@
 		A4013A871D7AD94C008DB483 /* DreamHackApp */ = {
 			isa = PBXGroup;
 			children = (
+				A44E2E731D7C157800953C35 /* KRAdditional.swift */,
+				A44E2E561D7C0B1400953C35 /* View */,
+				A44E2E541D7C094C00953C35 /* Model */,
+				A44E2E531D7C094100953C35 /* Controller */,
 				A4013A881D7AD94C008DB483 /* AppDelegate.swift */,
-				A4013A8A1D7AD94C008DB483 /* ViewController.swift */,
 				A4013A8C1D7AD94C008DB483 /* Main.storyboard */,
-				A4013A8F1D7AD94C008DB483 /* Assets.xcassets */,
 				A4013A911D7AD94C008DB483 /* LaunchScreen.storyboard */,
 				A4013A941D7AD94C008DB483 /* Info.plist */,
+				A40A58001D7C24FB0071C840 /* Assets.xcassets */,
 			);
 			path = DreamHackApp;
 			sourceTree = "<group>";
@@ -125,6 +203,104 @@
 			path = DreamHackAppUITests;
 			sourceTree = "<group>";
 		};
+		A44E2E531D7C094100953C35 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A475E4C71D81C799002E805B /* Profile */,
+				A475E4C61D81C785002E805B /* Timeline */,
+				A475E4C51D81C754002E805B /* Home */,
+				A475E4C41D81C729002E805B /* Account */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		A44E2E541D7C094C00953C35 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A4C631A21D82ED430023248E /* ParentModel.swift */,
+				A44E2E5D1D7C0B7100953C35 /* UserModel.swift */,
+				A4C631A01D82E63C0023248E /* RelationModel.swift */,
+				A44E2E611D7C0B9D00953C35 /* MemoryModel.swift */,
+				A44E2E551D7C0B0200953C35 /* Entity */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		A44E2E551D7C0B0200953C35 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				A44E2E5F1D7C0B8900953C35 /* Parent.swift */,
+				A44E2E571D7C0B3500953C35 /* User.swift */,
+				A44E2E591D7C0B4D00953C35 /* Relation.swift */,
+				A44E2E5B1D7C0B5A00953C35 /* Memory.swift */,
+			);
+			name = Entity;
+			sourceTree = "<group>";
+		};
+		A44E2E561D7C0B1400953C35 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A46E5FC01D82B33F00800526 /* TimelineTableViewCell.swift */,
+				A46E5FBE1D82AB6500800526 /* UserTableViewCell.swift */,
+				A46E5FBA1D82A6F700800526 /* FriendTableViewCell.swift */,
+				A4C631A41D82F6740023248E /* DrawlineUIView.swift */,
+				A4C631A61D82F6920023248E /* Points.swift */,
+				A40A58031D7C26560071C840 /* UserTableViewCell.xib */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		A475E4C41D81C729002E805B /* Account */ = {
+			isa = PBXGroup;
+			children = (
+				A44E2E651D7C0BE500953C35 /* PasswordViewController.swift */,
+				A44E2E671D7C0BF300953C35 /* CreateAccountViewController.swift */,
+				A44E2E631D7C0BBD00953C35 /* LoginViewController.swift */,
+			);
+			name = Account;
+			sourceTree = "<group>";
+		};
+		A475E4C51D81C754002E805B /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				A44E2E6F1D7C111300953C35 /* FriendListViewController.swift */,
+				A475E4BE1D81969A002E805B /* FindUserViewController.swift */,
+				A475E4C01D8197FD002E805B /* AddMemoryViewController.swift */,
+				A44E2E711D7C114F00953C35 /* AddRelationViewController.swift */,
+			);
+			name = Home;
+			sourceTree = "<group>";
+		};
+		A475E4C61D81C785002E805B /* Timeline */ = {
+			isa = PBXGroup;
+			children = (
+				A44E2E691D7C0C0D00953C35 /* TimelineViewController.swift */,
+				A44E2E6B1D7C0C1C00953C35 /* DetailViewController.swift */,
+			);
+			name = Timeline;
+			sourceTree = "<group>";
+		};
+		A475E4C71D81C799002E805B /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				A44E2E6D1D7C0C8400953C35 /* ProfileViewController.swift */,
+			);
+			name = Profile;
+			sourceTree = "<group>";
+		};
+		FDB685D53DADDC992832492A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A66C71BD33D6010309A6B61B /* Pods-DreamHackApp.debug.xcconfig */,
+				6BFE8A588578A376BE1875ED /* Pods-DreamHackApp.release.xcconfig */,
+				A5B305FAD6050E2BFF6C0FD3 /* Pods-DreamHackAppTests.debug.xcconfig */,
+				E27519392133C7177A62B11F /* Pods-DreamHackAppTests.release.xcconfig */,
+				4C7FD6EAD311237FD20DAC7F /* Pods-DreamHackAppUITests.debug.xcconfig */,
+				B4B9F6FAE2F004105D95FC8C /* Pods-DreamHackAppUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +308,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A4013AAD1D7AD94C008DB483 /* Build configuration list for PBXNativeTarget "DreamHackApp" */;
 			buildPhases = (
+				7FF1B2CD957098059C0E9522 /* [CP] Check Pods Manifest.lock */,
 				A4013A811D7AD94C008DB483 /* Sources */,
 				A4013A821D7AD94C008DB483 /* Frameworks */,
 				A4013A831D7AD94C008DB483 /* Resources */,
+				4EFB74ECE0EF2385981D3556 /* [CP] Embed Pods Frameworks */,
+				78A295322FCDA4035F4849C8 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +328,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A4013AB01D7AD94C008DB483 /* Build configuration list for PBXNativeTarget "DreamHackAppTests" */;
 			buildPhases = (
+				2C079BCAFE7AC723EAD26CCE /* [CP] Check Pods Manifest.lock */,
 				A4013A951D7AD94C008DB483 /* Sources */,
 				A4013A961D7AD94C008DB483 /* Frameworks */,
 				A4013A971D7AD94C008DB483 /* Resources */,
+				E789EA2E31AB4D4EA5D57C40 /* [CP] Embed Pods Frameworks */,
+				A764AF36951AE31B1164FC7D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +349,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A4013AB31D7AD94C008DB483 /* Build configuration list for PBXNativeTarget "DreamHackAppUITests" */;
 			buildPhases = (
+				15F7E9734BC72CE40040BB98 /* [CP] Check Pods Manifest.lock */,
 				A4013AA01D7AD94C008DB483 /* Sources */,
 				A4013AA11D7AD94C008DB483 /* Frameworks */,
 				A4013AA21D7AD94C008DB483 /* Resources */,
+				24D149810F4D91203EA8075F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -230,8 +414,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				A4013A931D7AD94C008DB483 /* LaunchScreen.storyboard in Resources */,
-				A4013A901D7AD94C008DB483 /* Assets.xcassets in Resources */,
 				A4013A8E1D7AD94C008DB483 /* Main.storyboard in Resources */,
+				A40A58011D7C24FB0071C840 /* Assets.xcassets in Resources */,
+				A40A58051D7C26560071C840 /* UserTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,13 +436,159 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		15F7E9734BC72CE40040BB98 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		24D149810F4D91203EA8075F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DreamHackAppUITests/Pods-DreamHackAppUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2C079BCAFE7AC723EAD26CCE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4EFB74ECE0EF2385981D3556 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DreamHackApp/Pods-DreamHackApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		78A295322FCDA4035F4849C8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DreamHackApp/Pods-DreamHackApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7FF1B2CD957098059C0E9522 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A764AF36951AE31B1164FC7D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DreamHackAppTests/Pods-DreamHackAppTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E789EA2E31AB4D4EA5D57C40 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DreamHackAppTests/Pods-DreamHackAppTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A4013A811D7AD94C008DB483 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A4013A8B1D7AD94C008DB483 /* ViewController.swift in Sources */,
+				A475E4BF1D81969A002E805B /* FindUserViewController.swift in Sources */,
+				A44E2E721D7C114F00953C35 /* AddRelationViewController.swift in Sources */,
+				A44E2E6C1D7C0C1C00953C35 /* DetailViewController.swift in Sources */,
+				A4C631A71D82F6920023248E /* Points.swift in Sources */,
+				A44E2E641D7C0BBD00953C35 /* LoginViewController.swift in Sources */,
+				A44E2E741D7C157800953C35 /* KRAdditional.swift in Sources */,
+				A4C631A11D82E63C0023248E /* RelationModel.swift in Sources */,
+				A44E2E661D7C0BE500953C35 /* PasswordViewController.swift in Sources */,
+				A46E5FBB1D82A6F700800526 /* FriendTableViewCell.swift in Sources */,
+				A46E5FC11D82B33F00800526 /* TimelineTableViewCell.swift in Sources */,
+				A44E2E6E1D7C0C8400953C35 /* ProfileViewController.swift in Sources */,
+				A44E2E701D7C111300953C35 /* FriendListViewController.swift in Sources */,
+				A44E2E681D7C0BF300953C35 /* CreateAccountViewController.swift in Sources */,
 				A4013A891D7AD94C008DB483 /* AppDelegate.swift in Sources */,
+				A44E2E6A1D7C0C0D00953C35 /* TimelineViewController.swift in Sources */,
+				A44E2E601D7C0B8900953C35 /* Parent.swift in Sources */,
+				A44E2E581D7C0B3500953C35 /* User.swift in Sources */,
+				A44E2E5C1D7C0B5A00953C35 /* Memory.swift in Sources */,
+				A46E5FBF1D82AB6500800526 /* UserTableViewCell.swift in Sources */,
+				A44E2E5E1D7C0B7100953C35 /* UserModel.swift in Sources */,
+				A4C631A31D82ED430023248E /* ParentModel.swift in Sources */,
+				A44E2E621D7C0B9D00953C35 /* MemoryModel.swift in Sources */,
+				A475E4C11D8197FD002E805B /* AddMemoryViewController.swift in Sources */,
+				A4C631A51D82F6740023248E /* DrawlineUIView.swift in Sources */,
+				A44E2E5A1D7C0B4D00953C35 /* Relation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -399,6 +730,7 @@
 		};
 		A4013AAE1D7AD94C008DB483 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A66C71BD33D6010309A6B61B /* Pods-DreamHackApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = DreamHackApp/Info.plist;
@@ -410,6 +742,7 @@
 		};
 		A4013AAF1D7AD94C008DB483 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6BFE8A588578A376BE1875ED /* Pods-DreamHackApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = DreamHackApp/Info.plist;
@@ -421,6 +754,7 @@
 		};
 		A4013AB11D7AD94C008DB483 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5B305FAD6050E2BFF6C0FD3 /* Pods-DreamHackAppTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = DreamHackAppTests/Info.plist;
@@ -433,6 +767,7 @@
 		};
 		A4013AB21D7AD94C008DB483 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E27519392133C7177A62B11F /* Pods-DreamHackAppTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = DreamHackAppTests/Info.plist;
@@ -445,6 +780,7 @@
 		};
 		A4013AB41D7AD94C008DB483 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C7FD6EAD311237FD20DAC7F /* Pods-DreamHackAppUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = DreamHackAppUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -456,6 +792,7 @@
 		};
 		A4013AB51D7AD94C008DB483 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B4B9F6FAE2F004105D95FC8C /* Pods-DreamHackAppUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = DreamHackAppUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -484,6 +821,7 @@
 				A4013AAF1D7AD94C008DB483 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A4013AB01D7AD94C008DB483 /* Build configuration list for PBXNativeTarget "DreamHackAppTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +830,7 @@
 				A4013AB21D7AD94C008DB483 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A4013AB31D7AD94C008DB483 /* Build configuration list for PBXNativeTarget "DreamHackAppUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +839,7 @@
 				A4013AB51D7AD94C008DB483 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

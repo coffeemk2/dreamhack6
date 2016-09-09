@@ -1,0 +1,45 @@
+PODS:
+  - Alamofire (3.4.2)
+  - AlamofireSwiftyJSON (0.1.1):
+    - Alamofire (~> 3.4)
+    - SwiftyJSON (~> 2.3)
+  - PDFramework (1.0.0)
+  - Realm (1.0.2):
+    - Realm/Headers (= 1.0.2)
+  - Realm/Headers (1.0.2)
+  - RealmSwift (1.0.2):
+    - Realm (= 1.0.2)
+  - SDWebImage (3.8.1):
+    - SDWebImage/Core (= 3.8.1)
+  - SDWebImage/Core (3.8.1)
+  - SwiftyJSON (2.3.2)
+
+DEPENDENCIES:
+  - Alamofire
+  - AlamofireSwiftyJSON
+  - PDFramework (from `https://gitlab.planningdev.com/planningdev/iOS_PDFramework.git`)
+  - RealmSwift
+  - SDWebImage
+  - SwiftyJSON
+
+EXTERNAL SOURCES:
+  PDFramework:
+    :git: https://gitlab.planningdev.com/planningdev/iOS_PDFramework.git
+
+CHECKOUT OPTIONS:
+  PDFramework:
+    :commit: 9be1eb3f653424b3d76c7ced6083c41f29a1984b
+    :git: https://gitlab.planningdev.com/planningdev/iOS_PDFramework.git
+
+SPEC CHECKSUMS:
+  Alamofire: 6aa33201d20d069e1598891cf928883ff1888c7a
+  AlamofireSwiftyJSON: 4787ff07c7e6687b787f1723229e729653e3359f
+  PDFramework: 091eaa2f4273686b4cd2b1185c4cd923037e4399
+  Realm: 9d5c46a4d7d27958530a8dfc58f63a99e5c2cba3
+  RealmSwift: 82f3ac5e24530143dddfde2033acc0d308f27d96
+  SDWebImage: 35f9627a3e44b4f292a8a8ce6a531fa488239b91
+  SwiftyJSON: 04ccea08915aa0109039157c7974cf0298da292a
+
+PODFILE CHECKSUM: bba8b72323b24524bae2a58340904c08cee7b87d
+
+COCOAPODS: 1.0.1

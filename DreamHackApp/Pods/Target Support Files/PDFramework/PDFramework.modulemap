@@ -1,0 +1,6 @@
+framework module PDFramework {
+  umbrella header "PDFramework-umbrella.h"
+
+  export *
+  module * { export * }
+}

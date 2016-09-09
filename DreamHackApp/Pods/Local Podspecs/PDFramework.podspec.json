@@ -1,0 +1,23 @@
+{
+  "name": "PDFramework",
+  "version": "1.0.0",
+  "summary": "Framework for P&D.",
+  "description": "PDFramework is framework with convenient classes and functions",
+  "homepage": "https://gitlab.planningdev.com/planningdev/iOS_PDFramework",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "P&D": "info@planningdev.com"
+  },
+  "requires_arc": true,
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source": {
+    "git": "https://gitlab.planningdev.com/planningdev/iOS_PDFramework.git",
+    "tag": "1.0.0"
+  },
+  "source_files": "PDFramework/**/*.swift"
+}

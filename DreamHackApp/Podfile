@@ -1,0 +1,22 @@
+# Uncomment this line to define a global platform for your project
+# platform :ios, '8.0'
+# Uncomment this line if you're using Swift
+use_frameworks!
+
+target 'DreamHackApp' do
+    pod 'Alamofire'
+    pod 'SwiftyJSON'
+    pod 'AlamofireSwiftyJSON'
+    pod 'RealmSwift'
+    pod 'SDWebImage'
+    pod 'PDFramework', :git => 'https://gitlab.planningdev.com/planningdev/iOS_PDFramework.git'
+end
+
+target 'DreamHackAppTests' do
+
+end
+
+target 'DreamHackAppUITests' do
+
+end
+
