@@ -7,6 +7,7 @@
 //
 
 import XCTest
+import PDFramework
 @testable import DreamHackApp
 
 class DreamHackAppTests: XCTestCase {
