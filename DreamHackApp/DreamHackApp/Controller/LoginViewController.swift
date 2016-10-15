@@ -30,6 +30,9 @@ class LoginViewController: UIViewController {
         //
         
         UserModel.setUsers()
+        MemoryModel.setMemories()
+        RelationModel.setRelation()
+        ParentModel.setParents()
         
         
         

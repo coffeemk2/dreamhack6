@@ -9,9 +9,26 @@
 import UIKit
 
 class ProfileViewController: UIViewController {
+    
+    let userModel = UserModel.sharedInstance
+    
+    @IBAction func tap(sender: UITapGestureRecognizer) {
+        self.view.endEditing(true)
+    }
 
+    @IBOutlet weak var myImage: UIImageView!
+    @IBOutlet weak var id: UITextField!
+    @IBOutlet weak var userName: UITextField!
+    @IBOutlet weak var profile: UITextView!
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        let user = userModel.users[0]
+        myImage.image = UIImage(named: user.image)
+        id.text = user.user_id
+        userName.text = user.name
+        profile.text = user.profile
+        
 
         // Do any additional setup after loading the view.
     }

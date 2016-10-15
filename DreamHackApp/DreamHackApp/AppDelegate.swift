@@ -20,7 +20,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         UINavigationBar.appearance().barTintColor = UIColor(aHexStr: "F36304")
         UITabBar.appearance().tintColor = UIColor(aHexStr: "FFFFFF")
         UITabBar.appearance().barTintColor = UIColor(aHexStr: "F36304")
-
+        
+        UIView.appearanceWhenContainedInInstancesOfClasses([UITabBar.Type])
+        
+        
+        
         return true
     }
 

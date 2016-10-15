@@ -55,7 +55,7 @@ extension FriendListViewController:UIGestureRecognizerDelegate{
 
 extension FriendListViewController: UITableViewDataSource,UITableViewDelegate{
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 10
+        return userModel.users.count
     }
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
@@ -64,7 +64,7 @@ extension FriendListViewController: UITableViewDataSource,UITableViewDelegate{
         let user = userModel.users[indexPath.row]
         
         cell.name.text = user.name
-        cell.thumbnail?.image = UIImage(named: "icon0")
+        cell.thumbnail?.image = UIImage(named: user.image)
         cell.user_id.text = user.user_id
         cell.profile.text = user.profile
         
@@ -72,6 +72,16 @@ extension FriendListViewController: UITableViewDataSource,UITableViewDelegate{
     }
     func tableView(tableView: UITableView, heightForRowAtIndexPath indexPath: NSIndexPath) -> CGFloat {
         return 100
+    }
+    
+    func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
+        performSegueWithIdentifier("memory", sender: indexPath.row)
+    }
+    
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        let destinationVC = segue.destinationViewController as! AddMemoryViewController
+        destinationVC.index = sender as! Int
+        
     }
 
 }

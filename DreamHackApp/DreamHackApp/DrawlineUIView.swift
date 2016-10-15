@@ -15,13 +15,28 @@ class DrawlineUIView: UIButton {
     var pcLayer = [CAShapeLayer]()
     var cgLayer = [[CAShapeLayer]]()
     
+    let parentModel = ParentModel.sharedInstsance
+    
+    var user_id = 0
+    
+    var tagUserId:[Int:Int] = [0:0]
+//    let userModel = UserModel.sharedInstance
+    
     override func awakeFromNib() {
     }
     
     // Only override drawRect: if you perform custom drawing.
     // An empty implementation adversely affects performance during animation.
     override func drawRect(rect: CGRect) {
+        tagUserId = [0:0]
         
+        
+        let parent = parentModel.parents[user_id].parent
+        guard let child :[(user:User,relation:Relation)] = parentModel.parents[user_id].child else {return }
+        
+        
+        
+
         
         //---------- 　ポイントの計算　-----------
         let grandChildApex:Double = Double(apex)
@@ -44,6 +59,13 @@ class DrawlineUIView: UIButton {
         parentCircle.layer.shadowRadius = 5;
         parentCircle.layer.shadowOpacity = 0.3;
         
+        parentCircle.setImage(UIImage(named: parent.image), forState: .Normal)
+        parentCircle.clipsToBounds = true
+        parentCircle.imageView?.contentMode = .ScaleAspectFill
+
+        
+        
+        
         
         
         //---------- 　子Viewの生成　-----------
@@ -58,6 +80,12 @@ class DrawlineUIView: UIButton {
             childCircle.layer.shadowOffset = CGSizeMake(0, +10)
             childCircle.layer.shadowRadius = 5;
             childCircle.layer.shadowOpacity = 0.3;
+            
+            childCircle.setImage(UIImage(named: child[index].user.image), forState: .Normal)
+            childCircle.clipsToBounds = true
+            childCircle.imageView?.contentMode = .ScaleAspectFill
+            tagUserId[index+100] = child[index].user.id
+            
             circles.append(childCircle)
             
             
@@ -79,6 +107,9 @@ class DrawlineUIView: UIButton {
             
             var subCgLayer = [CAShapeLayer]()
             
+            guard let childId = ParentModel.getParentsIndexFromUserId(child[index].user.id) else {return}
+            guard let grandChild = parentModel.parents[childId].child else {return}
+            
             
             //---------- 　孫Viewの生成　----------
             for (grandIndex,grandChildPoint) in grandChildPoints.enumerate(){
@@ -92,7 +123,11 @@ class DrawlineUIView: UIButton {
                 grandChildCircle.layer.shadowOffset = CGSizeMake(0, +10)
                 grandChildCircle.layer.shadowRadius = 5;
                 grandChildCircle.layer.shadowOpacity = 0.3;
-
+                
+                grandChildCircle.setImage(UIImage(named: grandChild[grandIndex].user.image), forState: .Normal)
+                grandChildCircle.clipsToBounds = true
+                grandChildCircle.imageView?.contentMode = .ScaleAspectFill
+                
                 circles.append(grandChildCircle)
                 UIView.animateWithDuration(1, animations: {
                     grandChildCircle.alpha = 1
@@ -209,6 +244,11 @@ class DrawlineUIView: UIButton {
             self.circles = []
             self.pcLayer = []
             self.cgLayer = []
+            
+            if let user_id = self.tagUserId[button.tag]{
+                self.user_id = user_id
+            }
+            
             self.setNeedsDisplay()
         }
     }

@@ -9,12 +9,10 @@
 /* Begin PBXBuildFile section */
 		4E53BA937635750883978598 /* Pods_DreamHackAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46FB5617846D9A602C76E360 /* Pods_DreamHackAppTests.framework */; };
 		A4013A891D7AD94C008DB483 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4013A881D7AD94C008DB483 /* AppDelegate.swift */; };
-		A4013A8E1D7AD94C008DB483 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4013A8C1D7AD94C008DB483 /* Main.storyboard */; };
 		A4013A931D7AD94C008DB483 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4013A911D7AD94C008DB483 /* LaunchScreen.storyboard */; };
 		A4013A9E1D7AD94C008DB483 /* DreamHackAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4013A9D1D7AD94C008DB483 /* DreamHackAppTests.swift */; };
 		A4013AA91D7AD94C008DB483 /* DreamHackAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4013AA81D7AD94C008DB483 /* DreamHackAppUITests.swift */; };
 		A40A58011D7C24FB0071C840 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A40A58001D7C24FB0071C840 /* Assets.xcassets */; };
-		A40A58051D7C26560071C840 /* UserTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A40A58031D7C26560071C840 /* UserTableViewCell.xib */; };
 		A44E2E581D7C0B3500953C35 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44E2E571D7C0B3500953C35 /* User.swift */; };
 		A44E2E5A1D7C0B4D00953C35 /* Relation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44E2E591D7C0B4D00953C35 /* Relation.swift */; };
 		A44E2E5C1D7C0B5A00953C35 /* Memory.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44E2E5B1D7C0B5A00953C35 /* Memory.swift */; };
@@ -35,10 +33,12 @@
 		A46E5FC11D82B33F00800526 /* TimelineTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A46E5FC01D82B33F00800526 /* TimelineTableViewCell.swift */; };
 		A475E4BF1D81969A002E805B /* FindUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A475E4BE1D81969A002E805B /* FindUserViewController.swift */; };
 		A475E4C11D8197FD002E805B /* AddMemoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A475E4C01D8197FD002E805B /* AddMemoryViewController.swift */; };
+		A486BC551D8314C80081C78E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A486BC531D8314C80081C78E /* Main.storyboard */; };
 		A4C631A11D82E63C0023248E /* RelationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C631A01D82E63C0023248E /* RelationModel.swift */; };
 		A4C631A31D82ED430023248E /* ParentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C631A21D82ED430023248E /* ParentModel.swift */; };
 		A4C631A51D82F6740023248E /* DrawlineUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C631A41D82F6740023248E /* DrawlineUIView.swift */; };
 		A4C631A71D82F6920023248E /* Points.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C631A61D82F6920023248E /* Points.swift */; };
+		A4C631A91D8301010023248E /* アイコン.png in Resources */ = {isa = PBXBuildFile; fileRef = A4C631A81D8301010023248E /* アイコン.png */; };
 		AAACFD3B336B74EE1182A3EB /* Pods_DreamHackApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B17DF62D9FA70413625C5298 /* Pods_DreamHackApp.framework */; };
 		EA90EEA83139CCE37C6A3173 /* Pods_DreamHackAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE1C905075EDE6202C531088 /* Pods_DreamHackAppUITests.framework */; };
 /* End PBXBuildFile section */
@@ -66,7 +66,6 @@
 		6BFE8A588578A376BE1875ED /* Pods-DreamHackApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DreamHackApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-DreamHackApp/Pods-DreamHackApp.release.xcconfig"; sourceTree = "<group>"; };
 		A4013A851D7AD94C008DB483 /* DreamHackApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DreamHackApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4013A881D7AD94C008DB483 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A4013A8D1D7AD94C008DB483 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A4013A921D7AD94C008DB483 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A4013A941D7AD94C008DB483 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A4013A991D7AD94C008DB483 /* DreamHackAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DreamHackAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -76,7 +75,6 @@
 		A4013AA81D7AD94C008DB483 /* DreamHackAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DreamHackAppUITests.swift; sourceTree = "<group>"; };
 		A4013AAA1D7AD94C008DB483 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A40A58001D7C24FB0071C840 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		A40A58031D7C26560071C840 /* UserTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = UserTableViewCell.xib; path = View/UserTableViewCell.xib; sourceTree = "<group>"; };
 		A44E2E571D7C0B3500953C35 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = User.swift; path = Model/Entity/User.swift; sourceTree = "<group>"; };
 		A44E2E591D7C0B4D00953C35 /* Relation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Relation.swift; sourceTree = "<group>"; };
 		A44E2E5B1D7C0B5A00953C35 /* Memory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Memory.swift; sourceTree = "<group>"; };
@@ -97,10 +95,12 @@
 		A46E5FC01D82B33F00800526 /* TimelineTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TimelineTableViewCell.swift; path = View/TimelineTableViewCell.swift; sourceTree = "<group>"; };
 		A475E4BE1D81969A002E805B /* FindUserViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FindUserViewController.swift; path = Controller/FindUserViewController.swift; sourceTree = "<group>"; };
 		A475E4C01D8197FD002E805B /* AddMemoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddMemoryViewController.swift; sourceTree = "<group>"; };
+		A486BC541D8314C80081C78E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A4C631A01D82E63C0023248E /* RelationModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RelationModel.swift; path = Model/RelationModel.swift; sourceTree = "<group>"; };
 		A4C631A21D82ED430023248E /* ParentModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ParentModel.swift; path = Model/ParentModel.swift; sourceTree = "<group>"; };
 		A4C631A41D82F6740023248E /* DrawlineUIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawlineUIView.swift; sourceTree = "<group>"; };
 		A4C631A61D82F6920023248E /* Points.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Points.swift; sourceTree = "<group>"; };
+		A4C631A81D8301010023248E /* アイコン.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "アイコン.png"; sourceTree = "<group>"; };
 		A5B305FAD6050E2BFF6C0FD3 /* Pods-DreamHackAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DreamHackAppTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DreamHackAppTests/Pods-DreamHackAppTests.debug.xcconfig"; sourceTree = "<group>"; };
 		A66C71BD33D6010309A6B61B /* Pods-DreamHackApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DreamHackApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DreamHackApp/Pods-DreamHackApp.debug.xcconfig"; sourceTree = "<group>"; };
 		B17DF62D9FA70413625C5298 /* Pods_DreamHackApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DreamHackApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -177,9 +177,10 @@
 				A44E2E541D7C094C00953C35 /* Model */,
 				A44E2E531D7C094100953C35 /* Controller */,
 				A4013A881D7AD94C008DB483 /* AppDelegate.swift */,
-				A4013A8C1D7AD94C008DB483 /* Main.storyboard */,
 				A4013A911D7AD94C008DB483 /* LaunchScreen.storyboard */,
+				A486BC531D8314C80081C78E /* Main.storyboard */,
 				A4013A941D7AD94C008DB483 /* Info.plist */,
+				A4C631A81D8301010023248E /* アイコン.png */,
 				A40A58001D7C24FB0071C840 /* Assets.xcassets */,
 			);
 			path = DreamHackApp;
@@ -245,7 +246,6 @@
 				A46E5FBA1D82A6F700800526 /* FriendTableViewCell.swift */,
 				A4C631A41D82F6740023248E /* DrawlineUIView.swift */,
 				A4C631A61D82F6920023248E /* Points.swift */,
-				A40A58031D7C26560071C840 /* UserTableViewCell.xib */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -372,18 +372,22 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
-				LastUpgradeCheck = 0730;
+				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = maekawakazuma;
 				TargetAttributes = {
 					A4013A841D7AD94C008DB483 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = MTY8A4UP87;
+						LastSwiftMigration = 0800;
 					};
 					A4013A981D7AD94C008DB483 = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0800;
 						TestTargetID = A4013A841D7AD94C008DB483;
 					};
 					A4013AA31D7AD94C008DB483 = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0800;
 						TestTargetID = A4013A841D7AD94C008DB483;
 					};
 				};
@@ -414,9 +418,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				A4013A931D7AD94C008DB483 /* LaunchScreen.storyboard in Resources */,
-				A4013A8E1D7AD94C008DB483 /* Main.storyboard in Resources */,
+				A486BC551D8314C80081C78E /* Main.storyboard in Resources */,
+				A4C631A91D8301010023248E /* アイコン.png in Resources */,
 				A40A58011D7C24FB0071C840 /* Assets.xcassets in Resources */,
-				A40A58051D7C26560071C840 /* UserTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -624,20 +628,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		A4013A8C1D7AD94C008DB483 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A4013A8D1D7AD94C008DB483 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		A4013A911D7AD94C008DB483 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				A4013A921D7AD94C008DB483 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		A486BC531D8314C80081C78E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A486BC541D8314C80081C78E /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -657,8 +661,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -703,8 +709,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -723,6 +731,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -732,11 +741,16 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A66C71BD33D6010309A6B61B /* Pods-DreamHackApp.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = DreamHackApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = planningdev.com.DreamHackApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_VERSION = 2.3;
 			};
 			name = Debug;
 		};
@@ -744,11 +758,16 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 6BFE8A588578A376BE1875ED /* Pods-DreamHackApp.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = DreamHackApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = planningdev.com.DreamHackApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_VERSION = 2.3;
 			};
 			name = Release;
 		};
@@ -761,6 +780,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = planningdev.com.DreamHackAppTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DreamHackApp.app/DreamHackApp";
 			};
 			name = Debug;
@@ -774,6 +794,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = planningdev.com.DreamHackAppTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DreamHackApp.app/DreamHackApp";
 			};
 			name = Release;
@@ -786,6 +807,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = planningdev.com.DreamHackAppUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
 				TEST_TARGET_NAME = DreamHackApp;
 			};
 			name = Debug;
@@ -798,6 +820,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = planningdev.com.DreamHackAppUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
 				TEST_TARGET_NAME = DreamHackApp;
 			};
 			name = Release;

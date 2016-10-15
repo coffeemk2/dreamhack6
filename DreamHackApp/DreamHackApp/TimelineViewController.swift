@@ -11,6 +11,8 @@ import UIKit
 class TimelineViewController: UIViewController {
 
     @IBOutlet weak var tableView: UITableView!
+    let memoryModel = MemoryModel.sharedInstance
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -32,6 +34,7 @@ class TimelineViewController: UIViewController {
         // Pass the selected object to the new view controller.
     }
     */
+    
 
 }
 
@@ -42,14 +45,28 @@ extension TimelineViewController:UITableViewDelegate,UITableViewDataSource{
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCellWithIdentifier("timeline", forIndexPath: indexPath) as! TimelineTableViewCell
-        cell.timeline.text = "めっちゃすごい"
         
+        let memory = memoryModel.memories[indexPath.row]
+        cell.timeline.text = memory.content
+        
+        guard let user1 = UserModel.getUser(memory.user1_id) else {return cell}
+        guard let user2 = UserModel.getUser(memory.user2_id) else {return cell}
+        
+        cell.myImage.image = UIImage(named: user1.image)
+        cell.yourImage.image = UIImage(named: user2.image)
         
         
         return cell
     }
     
     func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
-        performSegueWithIdentifier("detail", sender: nil)
+        performSegueWithIdentifier("detail", sender: indexPath)
+    }
+    
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        let destinationVC = segue.destinationViewController as! DetailViewController
+        let indexPath = sender as! NSIndexPath
+        destinationVC.index = indexPath.row
+        
     }
 }

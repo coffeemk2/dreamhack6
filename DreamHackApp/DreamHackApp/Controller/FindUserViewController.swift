@@ -74,4 +74,16 @@ extension FindUserViewController:UITableViewDelegate,UITableViewDataSource{
         return 100
     }
     
+    func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
+        performSegueWithIdentifier("relation", sender: indexPath.row)
+    }
+    
+    
+    
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        let vc = segue.destinationViewController as! AddRelationViewController
+        vc.index = sender as! Int
+    }
+    
+    
 }

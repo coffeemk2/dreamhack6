@@ -20,10 +20,24 @@ class AddMemoryViewController: UIViewController {
 
     @IBOutlet weak var content: UITextView!
     
+    var index:Int = 0
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
-
+        guard let me = UserModel.getUser(0) else {return }
+        guard let you = UserModel.getUser(index) else {return }
+        
+        myImageView.image = UIImage(named: me.image)
+        myLabel.text = me.name
+        myId.text = me.user_id
+        
+        yourImageView.image = UIImage(named: you.image)
+        yourLabel.text = you.name
+        yourId.text = you.user_id
+        
+        
+        
         // Do any additional setup after loading the view.
     }
 

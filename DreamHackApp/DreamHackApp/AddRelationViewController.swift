@@ -21,11 +21,21 @@ class AddRelationViewController: UIViewController {
     
     let relation = ["友達", "親友", "恋人", "先輩後輩", "家族"]
     
+    var index:Int = 0
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
         pickerView.delegate = self
         pickerView.dataSource = self
+        
+        
+        guard let user = UserModel.getUser(index) else {return }
+        imageView.image = UIImage(named: user.image)
+        nameLabel.text = user.name
+        idLabel.text = user.user_id
+        profileLabel.text = user.profile
+        
         
         // Do any additional setup after loading the view.
     }
